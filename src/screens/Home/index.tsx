@@ -1,4 +1,4 @@
-import { View,Text, Button } from "react-native"
+import { View,Text, Button, Pressable } from "react-native"
 import Checkbox from "../../components/Checkbox";
 import { useCallback, useState } from "react";
 import TaskItem from "../../components/TaskItem";
@@ -17,7 +17,7 @@ const Home = ({navigation} : any) => {
         title="Go to Details"
         onPress={() => navigation.navigate('Details')}
       />
-      <TaskItem isDone={isDone} onToggleChechbox={() => toggleCheckbox()}/>
+        <TaskItem isDone={isDone} onToggleChechbox={() => toggleCheckbox()}/>
         </View>
     )
 }
