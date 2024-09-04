@@ -12,7 +12,7 @@ const TaskItem = (props: Props) => {
     const {isDone, onToggleChechbox} = props;
 
     return (
-        <Pressable onPress={onToggleChechbox} className='m-2 items-center flex-row gap-2 px-4 py-2 bg-slate-200 dark:bg-gray-200 rounded-md'>
+        <Pressable onPress={onToggleChechbox} className='m-2 items-center flex-row gap-2 px-4 py-2 bg-slate-200 rounded-md'>
             <Checkbox isDone={isDone}></Checkbox>
             <TaskLabel strike={isDone} className='text-xl' textColor='#000' inactiveTextColor='#8888'>Read the bible</TaskLabel>
         </Pressable>

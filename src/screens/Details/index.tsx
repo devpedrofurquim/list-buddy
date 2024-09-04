@@ -9,9 +9,6 @@ const Details = ({navigation} : any) => {
         <View className="flex-1 justify-center items-center bg-background">
             <Text className="text-xl text-foreground">Details</Text>
             <Button title="Go back" onPress={() => navigation.goBack()} />
-            <TouchableOpacity className="bg-primary p-4 rounded-md">
-                <Text className="text-foreground">Click Me</Text>
-            </TouchableOpacity>
         </View>
     )
 }
