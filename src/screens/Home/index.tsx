@@ -12,7 +12,7 @@ const Home = ({navigation} : any) => {
 
     return (
         <View className="flex-1 justify-center items-center">
-            <Text className="text-xl text-black dark:text-white">Home</Text>
+            <Text className="text-xl">Home</Text>
             <Button
         title="Go to Details"
         onPress={() => navigation.navigate('Details')}
