@@ -1,7 +1,4 @@
-import { useColorScheme } from "nativewind";
-import { useState } from "react";
-import { View,Text, Button, Touchable, TouchableOpacity } from "react-native"
-import { ThemeTypes } from "../../utils/types";
+import { View,Text, Button} from "react-native"
 
 const Details = ({navigation} : any) => {
 
