@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { UserData } from './user';
+import { UserData } from '../user';
 
 export const getUsername = async (username: string) => {
   return new Promise(async (resolve, reject) => {
